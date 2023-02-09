@@ -1,0 +1,19 @@
+<h3>Get USERS</h3>
+<div *ngFor="let item of listUser">
+  <span>{{item.address | json}}</span>
+</div>
+<br>
+<h3>Get POST POR ID</h3>
+<button type="button" (click)="getPostById()">PostById</button>
+<p></p>
+<span>{{postUser | json}}</span>
+<br>
+<h3>POST USER</h3>
+<button type="button" (click)="postUserP()">PostUser</button>
+<br>
+<h3>PUT USER</h3>
+<button type="button" (click)="putUser()">PutUser</button>
+<br>
+<h3>DELETE USER</h3>
+<button type="button" (click)="deleteUser()">PutUser</button>
+
